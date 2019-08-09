@@ -86,26 +86,26 @@ app.listen(PORT, function () {
 });
 
 
-$("#").on("click", function (event) {
-    event.preventDefault();
-    var newPerson = {
-        name: $("#").val().trim(),
-        email: $("#").val().trim(),
-        phone: $("#").val().trim(),
-        id: $("#").val().trim()
-    };
+// $("#").on("click", function (event) {
+//     event.preventDefault();
+//     var newPerson = {
+//         name: $("#").val().trim(),
+//         email: $("#").val().trim(),
+//         phone: $("#").val().trim(),
+//         id: $("#").val().trim()
+//     };
 
-    if (tables.length >= 5) {
-        $.post("/api/tables", newPerson)
-            .then(function (data) {
-                console.log(data)
-                alert("Adding Table!");
-            });
-    } else {
-        $.post("/api/waitlist", newPerson)
-            .then(function (data) {
-                console.log(data)
-                alert("We are Full, Adding to the Wait List!");
-            });
-    }
-});
+//     if (tables.length >= 5) {
+//         $.post("/api/tables", newPerson)
+//             .then(function (data) {
+//                 console.log(data)
+//                 alert("Adding Table!");
+//             });
+//     } else {
+//         $.post("/api/waitlist", newPerson)
+//             .then(function (data) {
+//                 console.log(data)
+//                 alert("We are Full, Adding to the Wait List!");
+//             });
+//     }
+// });
