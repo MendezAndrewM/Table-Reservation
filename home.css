@@ -1,6 +1,8 @@
-.Jumbotron{
-    text-align: center;
-}
+.jumbotron {
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+ }
 .do{
     display: inline;
 }
