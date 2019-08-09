@@ -1,3 +1,9 @@
+#martini {
+width: 45px;
+height: 45px;
+margin-bottom: 10px;
+}
+
 .jumbotron {
     align-content: center;
     margin-left: 15%;
