@@ -1,6 +1,25 @@
-.Jumbotron{
-    text-align: center;
+#martini {
+width: 45px;
+height: 45px;
+margin-bottom: 10px;
 }
-.do{
+
+.jumbotron {
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#subtext {
+    font-size: 15pt;
+}
+
+.buttons {
+    align-content: center;
+    margin-left: 33%;
+    margin-right: 25%;
+}
+
+.do {
     display: inline;
 }
