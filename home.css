@@ -1,3 +1,17 @@
 .jumbotron {
     align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#subtext {
+    font-size: 15pt;
+}
+
+.buttons {
+    align-content: center;
+}
+
+.do {
+    display: inline;
 }
